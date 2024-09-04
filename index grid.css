@@ -1,0 +1,10 @@
+body{display: grid;
+grid-template-rows: 1fr 5fr 1fr;
+grid-template-columns: 1fr 3fr 1fr;
+}
+header{grid-column: 1/-1;}
+footer{grid-column: 1/-1}
+
+body>*{border: 5px solid;
+text-align: center;
+}
